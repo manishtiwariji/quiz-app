@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- Metadata -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Title -->
+   <title>Document</title>
+   <!-- External Stylesheet -->
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+   <div class="container" id="container">
+      <!-- Logo and Greeting -->
+      <img src="./img/logo.jpg" alt="Testbook logo">
+      <h2>Hello USERS</h2>
+      <!-- Form for Name Input -->
+      <h4>Enter your Name to continue the quiz</h4>
+      <form onsubmit="getName(event)">
+         <input  id="username" type="text" value="" placeholder="Enter your name" required>
+         <button class="input-button" type="submit">Enter</button>
+      </form>
+      <!-- Welcome Note -->
+      <div id="welcome-note"></div>
+      <!-- Instruction -->
+      <p>You'll have 10 seconds to answer each question</p>
+      <hr>
+      <!-- Category Selection -->
+      <h2>Select Category</h2>
+      <div>
+         <!-- Buttons for Different Categories -->
+         <button class="category-button" onclick="startQuiz(event)" value="Pipes and Cisterns">Pipes And
+            Cisterns</button>
+         <button class="category-button" onclick="startQuiz(event)" value="Probability">Probability</button>
+         <button class="category-button" onclick="startQuiz(event)" value="Problem on Ages">Problem on Ages</button>
+         <button class="category-button" onclick="startQuiz(event)" value="Profit and loss">Profit And Loss</button>
+      </div>
+
+   </div>
+
+   <!-- External Script -->
+   <script src="./script.js"></script>
+</body>
+
+</html>

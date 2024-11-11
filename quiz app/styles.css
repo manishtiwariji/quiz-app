@@ -1,0 +1,142 @@
+/* Reset styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for the container */
+.container {
+  border: 3px solid rgb(175, 171, 171);
+  width: 70%;
+  height: 80vh;
+  border-radius: 5px;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+/* Styles for the logo */
+.container > img {
+  width: 6rem;
+}
+
+/* Styles for the heading */
+.container > h2 {
+  color: #1fb9c1;
+}
+
+/* Styles for the paragraph */
+.container > p {
+  color: grey;
+  margin-top: 1rem;
+}
+
+/* Styles for the horizontal rule */
+hr {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+/* Styles for the input */
+input {
+  width: 70%;
+  border-radius: 3px;
+  height: 1.5rem;
+  border: 1px solid grey;
+  margin-top: 1rem;
+}
+
+/* Styles for the input button */
+.input-button {
+  color: #fff;
+  background-color: #1fb9c1;
+  border: none;
+  height: 1.5rem;
+  width: 5rem;
+  margin-left: 1rem;
+}
+
+/* Styles for the heading 4 */
+h4 {
+  margin-top: 1rem;
+}
+
+/* Styles for the category button */
+.category-button {
+  border: 2px solid #1fb9c1;
+  border-radius: 5px;
+  background-color: rgb(208, 236, 245);
+  color: grey;
+  width: 35%;
+  height: 1.5rem;
+  margin: 1rem 0.5rem 0 0.5rem;
+}
+
+/* Styles for the timer and score div */
+.timer-score-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Styles for the question div */
+#question-div {
+  border: 3px solid rgb(175, 171, 171);
+  width: 80%;
+  height: 25vh;
+  border-radius: 5px;
+  margin: 2.5rem auto;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+
+/* Styles for the option button */
+.option-button {
+  border: 2px solid #1fb9c1;
+  border-radius: 1rem;
+  background-color: #fff;
+  color: #1fb9c1;
+  width: 35%;
+  height: 2rem;
+  margin: 1rem 0.5rem 0 0.5rem;
+}
+
+/* Styles for the correct option */
+.correct-option {
+  border: 2px solid #1fb9c1;
+  border-radius: 1rem;
+  background-color: rgb(55, 207, 55);
+  color: #fff;
+  width: 35%;
+  height: 2rem;
+  margin: 1rem 0.5rem 0 0.5rem;
+}
+
+/* Styles for the wrong option */
+.wrong-option {
+  border: 2px solid #1fb9c1;
+  border-radius: 1rem;
+  background-color: tomato;
+  color: #fff;
+  width: 35%;
+  height: 2rem;
+  margin: 1rem 0.5rem 0 0.5rem;
+}
+
+/* Styles for the option button on hover */
+.option-button:hover {
+  background-color: #1fb9c1;
+  color: #fff;
+}
+
+/* Styles for the next button */
+.next-button {
+  border: 2px solid #1fb9c1;
+  border-radius: 1rem;
+  background-color: #1fb9c1;
+  color: #fff;
+  width: 25%;
+  height: 2rem;
+  margin: 1rem 0;
+}
